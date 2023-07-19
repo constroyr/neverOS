@@ -1,2 +1,2 @@
 # neverOS
-Node-base Environment for the Virtualization of Emergent Reveries
+Node-based Environment for the Virtualization of Emergent Reveries
