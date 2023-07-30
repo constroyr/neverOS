@@ -60,13 +60,13 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/neverOS v0.20.loader.js"></script>
+		<script src="Build/neverOS v0.31.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/neverOS v0.20.data",
-				frameworkUrl: "Build/neverOS v0.20.framework.js",
-				codeUrl: "Build/neverOS v0.20.wasm",
+				dataUrl: "Build/neverOS v0.31.data",
+				frameworkUrl: "Build/neverOS v0.31.framework.js",
+				codeUrl: "Build/neverOS v0.31.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "Tyler Sanders",
 				productName: "neverOS",
@@ -74,7 +74,7 @@
 			};
 			var scaleToFit;
 			try {
-				scaleToFit = !!JSON.parse("");
+				scaleToFit = !!JSON.parse("true");
 			} catch (e) {
 				scaleToFit = true;
 			}
